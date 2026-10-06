@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 
 import { Menu, X, ArrowUpRight } from "lucide-react";
 import { useLanguage } from "../lib/i18n";
+import { PORTAL_URL } from "../content/portal";
 
 export function Navbar() {
   const { t } = useLanguage();
@@ -19,7 +20,8 @@ export function Navbar() {
   // closes naturally — no useLocation-based effect needed.
 
   const navItems = [
-    { name: t.header.nav.services, href: "/#services" },
+    { name: "Portal", href: "/#so-funktionierts" },
+    { name: "Pakete", href: "/#pakete" },
     { name: t.header.nav.references, href: "/#references" },
     { name: t.header.nav.about, href: "/#about" },
     { name: t.header.nav.contact, href: "/#contact" },
@@ -82,12 +84,15 @@ export function Navbar() {
             ))}
           </nav>
 
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-4">
+            <a href={PORTAL_URL} className="hidden lg:inline-flex text-sm font-medium text-slate2 hover:text-ink transition-colors duration-200">
+              Kundenlogin
+            </a>
             <a
-              href="/#contact"
+              href="/#start"
               className="hidden sm:inline-flex items-center gap-2 bg-ink text-cloud px-5 py-2.5 text-[13px] font-medium rounded-full hover:bg-navy transition-all duration-300 ease-out-quart"
             >
-              {t.header.cta}
+              Projekt starten
               <span aria-hidden>→</span>
             </a>
 
@@ -106,7 +111,7 @@ export function Navbar() {
         {/* mobile drawer */}
         <div
           className={`md:hidden overflow-hidden transition-[max-height,opacity] duration-300 ease-out-quart border-t ${
-            open ? "max-h-96 opacity-100 border-line" : "max-h-0 opacity-0 border-transparent"
+            open ? "max-h-[36rem] opacity-100 border-line" : "max-h-0 opacity-0 border-transparent"
           } bg-cloud`}
         >
           <nav className="container-x py-6 flex flex-col gap-1">
@@ -119,11 +124,14 @@ export function Navbar() {
                 {item.name}
               </a>
             ))}
+            <a href={PORTAL_URL} className="text-base font-medium text-ink py-3 border-b border-line-soft hover:text-navy transition-colors">
+              Kundenlogin
+            </a>
             <a
-              href="/#contact"
+              href="/#start"
               className="mt-3 inline-flex items-center justify-center gap-2 bg-ink text-cloud px-5 py-3.5 text-sm font-medium rounded-full"
             >
-              {t.header.cta} <span aria-hidden>→</span>
+              Projekt starten <span aria-hidden>→</span>
             </a>
           </nav>
         </div>

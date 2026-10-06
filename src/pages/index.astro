@@ -2,25 +2,30 @@
 import Layout from '../layouts/Layout.astro'
 import { Navbar } from '../components/Navbar'
 import { HeroSection } from '../components/HeroSection'
-import { ServicesSection } from '../components/ServicesSection'
+import { HowItWorksSection } from '../components/HowItWorksSection'
+import { ControlSection } from '../components/ControlSection'
+import { PackagesSection } from '../components/PackagesSection'
 import { ReferenceSection } from '../components/ReferenceSection'
 import { AboutSection } from '../components/AboutSection'
-import { ContactSection } from '../components/ContactSection'
+import { StartSection } from '../components/StartSection'
 import { FooterSection } from '../components/FooterSection'
 ---
 
 <Layout
-  title="TW Services — Premium-Werbefilme für Neubauprojekte | DACH"
-  description="TW Services produziert KI-gestützte Werbefilme für Bauträger und Projektentwickler im DACH-Raum. Mehr qualifizierte Anfragen, kürzere Vermarktungsdauer."
+  title="TW Services · TWS Studio: Vermarktung für Neubauprojekte"
+  description="Projektvideo, Anzeigen auf Instagram und Facebook, Landingpage und Kampagne für Ihr Neubauprojekt. Unterlagen hochladen, wir machen den Rest, nichts geht ohne Ihre Freigabe live."
   canonical="https://www.tw-services.ch/"
+  ogImage="https://www.tw-services.ch/portal/og-portal.jpg"
 >
   <Navbar client:load />
   <main>
     <HeroSection client:load />
-    <ServicesSection client:visible />
+    <HowItWorksSection client:visible />
+    <ControlSection client:visible />
+    <PackagesSection client:visible />
     <ReferenceSection client:visible />
     <AboutSection client:visible />
-    <ContactSection client:visible />
+    <StartSection client:load />
   </main>
   <FooterSection client:visible />
 </Layout>
