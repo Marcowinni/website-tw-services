@@ -28,7 +28,7 @@ function validate(body: Input) {
     email: str(body.email, MAX.email),
     phone: str(body.phone, MAX.phone),
     project: str(body.project, MAX.project),
-    package: typeof body.package === "string" && body.package in PACKAGES ? body.package : "offen",
+    package: typeof body.package === "string" && Object.hasOwn(PACKAGES, body.package) ? body.package : "offen",
     message: str(body.message, MAX.message),
   };
   const errors: Record<string, string> = {};
