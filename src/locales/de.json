@@ -2,7 +2,7 @@
   "about": {
     "title": "Über uns",
     "mission_title": "Unsere Vision",
-    "mission_text": "Wir verbinden Marketing und Technologie, damit du nicht zurückbleibst.",
+    "mission_text": "Wir verbinden Marketing und Technologie, damit Sie nicht zurückbleiben.",
     "team_title": "Das Team",
     "marco_role": "Co-Founder & Tech Lead",
     "till_role": "Co-Founder & Strategy",
@@ -27,161 +27,12 @@
   "header": {
     "nav": {
       "home": "Home",
-      "services": "Services",
       "references": "Referenzen",
       "contact": "Kontakt",
       "about": "Über uns"
     },
     "cta": "Erstberatung vereinbaren"
   },
-  "hero": {
-    "title_main": "Wir verkaufen Neubauprojekte,",
-    "title_highlight": "bevor der Bagger kommt",
-    "subtitle_main": "Gehen sie Mit KI",
-    "subtitle_sub": "oder gehen Sie,",
-    "subtitle_highlight": "mit KI."
-  },
-  "services": {
-    "blue_title": "Unsere Services",
-    "title": "Mehr qualifizierte Anfragen",
-    "subtitle": ""
-  },
-  "servicesDetail": {
-    "premium-werbefilme": {
-      "title": "Premium-Werbefilme",
-      "tagline": "Reiner Werbefilm für Neubauprojekte",
-      "subtitle": "Cineastische Werbefilme für Neubauprojekte und Überbauungen –\nIhr Projekt in 45-60 Sekunden klar, emotional und begehrenswert auf den Punkt gebracht.",
-      "benefitTitle": "Ihr Ergebnis",
-      "benefitText": "Ein hochwertiger, eigenständiger Werbefilm, der Ihr Projekt in unter einer Minute so klar und begehrenswert präsentiert, dass sich Interessenten selbst qualifizieren – mehr passende Anfragen, kürzere Erklärschleifen.",
-      "valueTitle": "Mehrwert",
-      "valueText": "Renderings und Broschüren zeigen, wie ein Projekt aussieht. Ein Premium-Werbefilm zeigt, warum man dort wohnen will.\n\nKombiniert aus echten Drohnen-Aufnahmen, KI-gestützter Visualisierung und klarer Story – ohne Stock-Material, ohne austauschbare Bildsprache.",
-      "positioningTitle": "Für wen",
-      "positioningText": "Projektentwickler, Bauträger und Vermarktungs-Verantwortliche von Neubauprojekten und Überbauungen im DACH-Raum.",
-      "whyTitle": "Warum wir hier Spezialist sind",
-      "whyBullets": [
-        "KI-VISUALISIERUNG UND STORY AUS EINER HAND",
-        "EFFIZIENTER WORKFLOW"
-      ],
-      "includesTitle": "Sie erhalten",
-      "includesBullets": [
-        "PREMIUM-WERBEFILM IN 45–60 SEKUNDEN",
-        "DROHNEN- UND VISUALISIERUNGS-MATERIAL",
-        "STORY, SKRIPT UND VOICEOVER",
-        "FORMATE FÜR WEB, SOCIAL UND PRÄSENTATION"
-      ],
-      "processTitle": "So läuft es ab",
-      "processSteps": [
-        "KICK-OFF & MATERIALPRÜFUNG",
-        "STORY & SKRIPT",
-        "PRODUKTION V1 → 1–2 FEEDBACKRUNDEN",
-        "FINALISIERUNG & ÜBERGABE"
-      ],
-      "ctaPrimary": "Offerte erhalten",
-      "ctaPrimaryLink": "/#contact",
-      "ctaSecondary": "Referenzen ansehen",
-      "ctaSecondaryLink": "/projects?category=video"
-    },
-    "visualisierungen": {
-      "title": "Visualisierungen",
-      "tagline": "KI-gestützte Renderings & Walkthroughs",
-      "subtitle": "Aus Plänen entstehen Räume.\nPhotorealistische Visualisierungen für Vermarktung, Behördengang und Investorenpräsentation.",
-      "benefitTitle": "Ihr Ergebnis",
-      "benefitText": "Ihr Projekt wird sichtbar, bevor es gebaut ist – in einer Bildqualität, die Käufer überzeugt und Stakeholder mitnimmt.",
-      "valueTitle": "Mehrwert",
-      "valueText": "Klassische Renderings dauern Wochen und kosten ein Vielfaches. KI-gestützte Workflows liefern in Tagen dieselbe Qualität – mit gezielter manueller Nachbearbeitung dort, wo es zählt.\n\nWir kombinieren beides: KI für Tempo und Iteration, Handarbeit für Material, Licht und Atmosphäre.",
-      "positioningTitle": "Für wen",
-      "positioningText": "Projektentwickler und Bauträger, die früh in der Vermarktung Bildmaterial brauchen – für Webseite, Inserate, Investorenpräsentation oder Eingabe.",
-      "whyTitle": "Warum wir hier Spezialist sind",
-      "whyBullets": [
-        "KI-WORKFLOWS MIT MANUELLER FEINJUSTIERUNG",
-        "TAG- UND ABENDSTIMMUNGEN, INNEN UND AUSSEN",
-        "ITERATION IN STUNDEN, NICHT WOCHEN"
-      ],
-      "includesTitle": "Sie erhalten",
-      "includesBullets": [
-        "AUSSEN-VISUALISIERUNGEN IN MEHREREN STIMMUNGEN",
-        "INNENRAUM-STAGINGS NACH BEDARF",
-        "ANIMIERTE WALKTHROUGHS AUF WUNSCH",
-        "FORMATE FÜR PRINT, WEB UND SOCIAL"
-      ],
-      "processTitle": "So läuft es ab",
-      "processSteps": [
-        "BRIEFING & PLANGRUNDLAGEN",
-        "MOOD & STIL-DEFINITION",
-        "ERSTE VISUALS → FEEDBACKRUNDE",
-        "FINALE LIEFERUNG IN ALLEN FORMATEN"
-      ],
-      "ctaPrimary": "Offerte erhalten",
-      "ctaPrimaryLink": "/#contact",
-      "ctaSecondary": "Referenzen ansehen",
-      "ctaSecondaryLink": "/projects?category=video"
-    },
-    "time-to-sell": {
-      "title": "Time-to-Sell Video System",
-      "tagline": "Setup Werbefilm + Kampagnenmanagement",
-      "subtitle": "Ein vollständiges video-basiertes Vermarktungssystem.\nVom Werbefilm über Lead-Funnel bis zur laufenden Kampagnen-Optimierung.",
-      "benefitTitle": "Ihr Ergebnis",
-      "benefitText": "Ihr werdet unabhängig vom Portal-Algorithmus. Ihr Projekt wird in 45-60 Sekunden so klar und begehrenswert erklärt, dass sich Interessenten selbst qualifizieren – mehr passende Anfragen, kürzere Vermarktungsdauer und spürbar weniger Druck im Alltag.",
-      "valueTitle": "Mehrwert",
-      "valueText": "Hochpreisige Neubauprojekte bleiben oft zu lange am Markt, weil Unsicherheit und Komplexität Kaufentscheide bremsen.\n\nWir bauen ein System, das Käufer und interne Stakeholder schnell zur Klarheit führt: Premium-Werbefilm, Lead-Funnel mit Vorqualifizierung, automatisierter Versand der Projektunterlagen und laufende Optimierung von Hooks und Creatives auf Meta und YouTube.",
-      "positioningTitle": "Für wen",
-      "positioningText": "Projektentwickler, Bauträger und Vermarktungs-Verantwortliche, die nicht nur einen Film, sondern ein laufendes System wollen – Head of Marketing, Projektleiter Vermarktung, Geschäftsführer.",
-      "whyTitle": "Warum wir hier Spezialist sind",
-      "whyBullets": [
-        "PRODUKTION UND PERFORMANCE-MARKETING AUS EINER HAND",
-        "DONE-FOR-YOU: MINIMALER AUFWAND FÜR IHR TEAM",
-        "MESSBARES TRACKING UND LAUFENDE OPTIMIERUNG"
-      ],
-      "phases": [
-        {
-          "label": "Phase 01",
-          "title": "Setup Video-System",
-          "subtitle": "Einmalige Projektumsetzung",
-          "intro": "Im Rahmen des Setups konzipieren, erstellen und implementieren wir das video-basierte Vermarktungssystem für Ihr Neubauprojekt. Ziel ist die Entwicklung eines hochwertigen Video-Assets, das als zentrales Marketinginstrument für die Vermarktung eingesetzt wird.",
-          "bullets": [
-            "Kick-off Termin und Prüfung der bereitgestellten Projektunterlagen",
-            "Entwicklung der Projekt-Story und Erstellung des Video-Skripts",
-            "Produktion der ersten Version des Produktvideos (V1)",
-            "1–2 Feedbackrunden zur Optimierung",
-            "Finalisierung und Übergabe des Videos",
-            "Implementierung des Videos als Vermarktungs-Asset für die weitere Kampagnenführung",
-            "Einrichtung und Strukturierung des Online-Advertising-Systems",
-            "Entwicklung der Kampagnenstrategie für digitale Werbung"
-          ]
-        },
-        {
-          "label": "Phase 02",
-          "title": "Kampagnenmanagement",
-          "subtitle": "Monatliche Betreuung",
-          "intro": "Nach Fertigstellung des Video-Assets erfolgt die laufende Vermarktung und Optimierung der Kampagnen zur Generierung qualifizierter Käuferanfragen.",
-          "bullets": [
-            "Umsetzung der Kampagnenstrategie für digitale Werbung",
-            "Erstellung von Curated Short Videos aus dem Projektfilm für Marketing- und Werbekampagnen",
-            "Aufbau eines Lead-Funnels zur Vorqualifizierung von Interessenten",
-            "Automatisierter Versand der Projektunterlagen an Interessenten",
-            "Laufende Optimierung von Kampagnen, Hooks und Creatives",
-            "Video-Updates bei projektbezogenen Detailänderungen während des Verkaufsprozesses"
-          ]
-        }
-      ],
-      "ctaPrimary": "Offerte erhalten",
-      "ctaPrimaryLink": "/#contact",
-      "ctaSecondary": "Referenzen ansehen",
-      "ctaSecondaryLink": "/projects?category=video"
-    }
-  },
-
-
-  "kontakt": {
-    "blue_title": "Kontakt",
-    "title": "Bereit für dein Projekt?",
-    "subtitle": "Kontaktiere uns direkt für ein unverbindliches Angebot oder eine kostenlose Erstberatung.",
-    "whatsapp_label": "WhatsApp Scan",
-    "email_label": "E-Mail schreiben",
-    "phone_label": "Anrufen",
-    "contact_button": "Kontakt aufnehmen"
-  },
-
   "references": {
     "blue_title": "Unsere Projekte",
     "projekte_title": "Alle Projekte ansehen",
@@ -362,7 +213,7 @@
     "items": []
   },
   "footer": {
-    "description": "Ihr Projekt in 45-60 Sekunden klar – mehr qualifizierte Anfragen, weniger Erklär-Aufwand im Vertrieb.",
+    "description": "Vermarktung für Neubauprojekte: Projektvideo, Anzeigen, Landingpage und Kampagne aus einer Hand, gesteuert im Portal TWS Studio.",
     "company": "Rechtliches",
     "rights": "Alle Rechte vorbehalten.",
     "links": {

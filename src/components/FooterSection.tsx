@@ -20,10 +20,10 @@ export function FooterSection() {
               {t.footer.description}
             </p>
             <a
-              href="/#contact"
+              href="/#start"
               className="btn btn-primary group"
             >
-              {t.header.cta}
+              Projekt starten
               <span aria-hidden className="transition-transform duration-300 group-hover:translate-x-1">→</span>
             </a>
 
@@ -58,7 +58,9 @@ export function FooterSection() {
               Navigation
             </h4>
             <ul className="space-y-3">
-              <li><a href="/#services" className="text-sm text-slate2 hover:text-ink transition-colors">{t.header.nav.services}</a></li>
+              <li><a href="/portal" className="text-sm text-slate2 hover:text-ink transition-colors">Film zum Portal</a></li>
+              <li><a href="/#pakete" className="text-sm text-slate2 hover:text-ink transition-colors">Pakete</a></li>
+              <li><a href="https://studio.tw-services.ch" className="text-sm text-slate2 hover:text-ink transition-colors">Kundenlogin</a></li>
               <li><a href="/#references" className="text-sm text-slate2 hover:text-ink transition-colors">{t.header.nav.references}</a></li>
               <li><a href="/#about" className="text-sm text-slate2 hover:text-ink transition-colors">{t.header.nav.about}</a></li>
               <li><a href="/#contact" className="text-sm text-slate2 hover:text-ink transition-colors">{t.header.nav.contact}</a></li>

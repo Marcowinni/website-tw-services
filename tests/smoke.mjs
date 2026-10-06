@@ -8,9 +8,7 @@ const OUT = "tests/screenshots";
 const ROUTES = [
   { path: "/", name: "home" },
   { path: "/projects", name: "projects" },
-  { path: "/services/premium-werbefilme", name: "service-premium-werbefilme" },
-  { path: "/services/visualisierungen", name: "service-visualisierungen" },
-  { path: "/services/time-to-sell", name: "service-time-to-sell" },
+  { path: "/portal", name: "portal" },
   { path: "/about/marco", name: "about-marco" },
   { path: "/about/till", name: "about-till" },
   { path: "/impressum", name: "impressum" },

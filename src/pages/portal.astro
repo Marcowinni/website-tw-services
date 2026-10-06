@@ -1,0 +1,39 @@
+---
+import Layout from '../layouts/Layout.astro'
+import { Navbar } from '../components/Navbar'
+import { FilmPage } from '../components/FilmPage'
+import { FooterSection } from '../components/FooterSection'
+
+// The direct link Till sends: tw-services.ch/portal. Link previews show a frame of the film.
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'VideoObject',
+  name: 'TWS Studio: Vermarktung für Neubauprojekte',
+  description:
+    'In 95 Sekunden: wie TWS Studio Neubauprojekte mit Projektvideo, Meta-Anzeigen, Landingpage und Kampagne sichtbar macht, mit Ihrer Freigabe bei jedem Schritt.',
+  thumbnailUrl: 'https://www.tw-services.ch/portal/og-portal.jpg',
+  contentUrl: 'https://www.tw-services.ch/portal/tws-studio-film.mp4',
+  uploadDate: '2026-10-06',
+  duration: 'PT1M35S',
+  inLanguage: 'de-CH',
+  publisher: {
+    '@type': 'Organization',
+    name: 'TW Services',
+    url: 'https://www.tw-services.ch/',
+    logo: { '@type': 'ImageObject', url: 'https://www.tw-services.ch/logo.png' },
+  },
+}
+---
+
+<Layout
+  title="TWS Studio · Der Film | TW Services"
+  description="95 Sekunden: Ihr Neubauprojekt im Feed Ihrer Käufer. Unterlagen hochladen, wir machen den Rest, nichts geht ohne Ihre Freigabe live, bezahlt wird erst, wenn Ihnen das Video gefällt."
+  canonical="https://www.tw-services.ch/portal"
+  ogImage="https://www.tw-services.ch/portal/og-portal.jpg"
+  ogImageAlt="Standbild aus dem Film über das Portal TWS Studio"
+  jsonLd={jsonLd}
+>
+  <Navbar client:load />
+  <FilmPage client:load />
+  <FooterSection client:visible />
+</Layout>

@@ -19,6 +19,10 @@ export default defineConfig({
   // /avv forwards there instead of duplicating the contract here.
   redirects: {
     '/avv': { status: 301, destination: 'https://www.tw-p.ch/avv' },
+    // The service pages were folded into the portal; old links and search results land on the film.
+    '/services/premium-werbefilme': { status: 301, destination: '/portal' },
+    '/services/visualisierungen': { status: 301, destination: '/portal' },
+    '/services/time-to-sell': { status: 301, destination: '/portal' },
   },
   adapter: vercel({
     webAnalytics: { enabled: true },
